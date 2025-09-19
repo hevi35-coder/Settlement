@@ -1,0 +1,29 @@
+# 대시보드 UI 기본 구성: 최종 이체금액 표시, 체크박스, 메모 인라인 편집
+
+**Task ID:** T-007
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 8/10
+**Urgency:** 9/10
+**Dependencies:** T-006
+
+## Description
+
+### 요구사항
+- 대시보드 지출 목록 테이블 구현(체크박스, 날짜, 타입, 내용, 금액, 메모)
+- 체크박스 선택 및 메모 입력 시 실시간 최종 이체금액(월급 - 고정지출액 - 선택된 공용지출 합계) 재계산
+- 항목 클릭 시 상세 정보 팝업 제공
+### 구현 세부사항
+- Shadcn/ui의 Table, Checkbox, Input, Dialog 컴포넌트 사용
+- Tailwind CSS 스타일 적용 및 responsive 고려
+- 상태 관리: 각 항목 객체에 isChecked, currentMemo 상태 추가 및 onChange 핸들러 적용
+- 합산 로직: isChecked true 항목 필터 후 reduce로 금액 합산 및 상단 컴포넌트에 전달
+### 테스트 전략
+- 단위 테스트: 상태 변경 및 계산 함수 검증
+- UI 테스트: 컴포넌트 렌더링 및 상호작용(Cypress) 검증
+- 접근성 테스트: Radix UI 컴포넌트 접근성 속성 확인
+
+---
+
+**Created:** 2025-09-19T12:14:16.029Z
+**Updated:** 2025-09-19T12:14:16.029Z

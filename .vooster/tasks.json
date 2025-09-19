@@ -1,0 +1,106 @@
+{
+  "totalCount": 10,
+  "downloadedAt": "2025-09-19T14:29:19.036Z",
+  "tasks": [
+    {
+      "taskId": "T-001",
+      "summary": "사용자 인증 구현 및 Settings 테이블 연동",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 7,
+      "urgency": 9,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    },
+    {
+      "taskId": "T-002",
+      "summary": "Supabase DB 스키마 생성 및 ERD 기반 테이블 설계",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 6,
+      "urgency": 8,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    },
+    {
+      "taskId": "T-003",
+      "summary": "ZIP 파일 업로드, 압축 해제 및 비밀번호 검증 기능 개발",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 6,
+      "urgency": 8,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    },
+    {
+      "taskId": "T-004",
+      "summary": "엑셀 파싱 및 '가계부 내역' 시트 데이터 추출 로직 구현",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 7,
+      "urgency": 9,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    },
+    {
+      "taskId": "T-005",
+      "summary": "unique_hash 생성 및 중복 체크 후 DB 저장",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 7,
+      "urgency": 9,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    },
+    {
+      "taskId": "T-006",
+      "summary": "기간별 지출 내역 조회 API 및 프론트엔드 연동",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 6,
+      "urgency": 8,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    },
+    {
+      "taskId": "T-007",
+      "summary": "대시보드 UI 기본 구성: 최종 이체금액 표시, 체크박스, 메모 인라인 편집",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 8,
+      "urgency": 9,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    },
+    {
+      "taskId": "T-008",
+      "summary": "정산 확정 기능과 Calculation_History에 정산 내역 저장",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 7,
+      "urgency": 8,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    },
+    {
+      "taskId": "T-009",
+      "summary": "에러 및 예외 처리 로직 구현",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 6,
+      "urgency": 9,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    },
+    {
+      "taskId": "T-010",
+      "summary": "모바일 반응형 디자인 적용 및 UI/UX 최적화",
+      "status": "BACKLOG",
+      "importance": "MUST",
+      "complexity": 7,
+      "urgency": 7,
+      "createdAt": "2025-09-19T12:14:16.029Z",
+      "updatedAt": "2025-09-19T12:14:16.029Z"
+    }
+  ]
+}

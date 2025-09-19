@@ -1,0 +1,28 @@
+# Supabase DB 스키마 생성 및 ERD 기반 테이블 설계
+
+**Task ID:** T-002
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 6/10
+**Urgency:** 8/10
+**Dependencies:** T-001
+
+## Description
+
+### 요구사항
+- Settings, Shared_Expenses, Calculation_History 테이블 생성
+- 컬럼 데이터 타입 및 제약조건 설정
+### 구현 세부사항
+- Supabase Dashboard 또는 pgshell 통해 SQL 마이그레이션 스크립트 작성 및 실행
+- settings.id UUID PK, salary INT, fixed_expense INT DEFAULT 0 설정
+- shared_expenses 각 컬럼 타입 지정 및 unique_hash UNIQUE 제약조건 추가
+- calculation_history 컬럼 타입 및 JSONB details_snapshot 설정
+### 테스트 전략
+- 마이그레이션 테스트: 테스트 데이터베이스에 스키마 적용 확인
+- 스키마 검증: 테이블 메타데이터 조회로 컬럼 및 제약조건 검증
+- 간단한 CRUD 테스트로 테이블 생성·삭제·업데이트 동작 확인
+
+---
+
+**Created:** 2025-09-19T12:14:16.029Z
+**Updated:** 2025-09-19T12:14:16.029Z

@@ -1,0 +1,27 @@
+# 정산 확정 기능과 Calculation_History에 정산 내역 저장
+
+**Task ID:** T-008
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 7/10
+**Urgency:** 8/10
+**Dependencies:** T-007
+
+## Description
+
+### 요구사항
+- [확정] 버튼 클릭 시 Calculation_History 테이블에 스냅샷 저장 API 및 UI 구현
+- 정산 이력 조회 기능 구현
+### 구현 세부사항
+- Next.js API Route(/api/history)에서 @supabase/supabase-js 클라이언트로 insert summary 및 details_snapshot JSONB 저장
+- React UI에서 확정 버튼 onClick으로 useMutation(react-query) 호출
+- 정산 이력 페이지에 useQuery로 history 목록 가져와 Shadcn/ui Table로 표시
+### 테스트 전략
+- 단위 테스트: API Route 데이터 저장 로직 검증
+- 통합 테스트: 프론트엔드 버튼 클릭 후 DB 저장 및 목록 갱신 확인
+- E2E 테스트: 사용자 시나리오(정산 후 이력 조회) 검증
+
+---
+
+**Created:** 2025-09-19T12:14:16.029Z
+**Updated:** 2025-09-19T12:14:16.029Z

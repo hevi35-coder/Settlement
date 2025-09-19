@@ -1,0 +1,27 @@
+# unique_hash 생성 및 중복 체크 후 DB 저장
+
+**Task ID:** T-005
+**Status:** BACKLOG
+**Importance:** MUST
+**Complexity:** 7/10
+**Urgency:** 9/10
+**Dependencies:** T-004, T-002
+
+## Description
+
+### 요구사항
+- 각 지출 항목에 대해 날짜+내용+금액 기반 unique_hash 생성
+- Supabase Upsert 기능으로 중복 없이 Shared_Expenses 테이블에 저장
+### 구현 세부사항
+- hash 함수(예: SHA256)로 unique_hash 생성 로직 구현
+- @supabase/supabase-js Admin 클라이언트 사용하여 upsert({ unique_hash }, data) 실행
+- 중복 발생 시 업데이트 없이 무시되도록 설정
+### 테스트 전략
+- 단위 테스트: 동일 데이터 입력 시 unique_hash 동일성 및 중복 저장 방지 검증
+- 통합 테스트: DB에 최초 저장 후 중복 데이터 업로드 시 영향 없는지 확인
+- 에러 테스트: 데이터베이스 연결 오류 시 에러 메시지 반환 검증
+
+---
+
+**Created:** 2025-09-19T12:14:16.029Z
+**Updated:** 2025-09-19T12:14:16.029Z
