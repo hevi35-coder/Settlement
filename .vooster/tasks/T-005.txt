@@ -1,7 +1,7 @@
 # unique_hash 생성 및 중복 체크 후 DB 저장
 
 **Task ID:** T-005
-**Status:** BACKLOG
+**Status:** DONE
 **Importance:** MUST
 **Complexity:** 7/10
 **Urgency:** 9/10
@@ -24,4 +24,4 @@
 ---
 
 **Created:** 2025-09-19T12:14:16.029Z
-**Updated:** 2025-09-19T12:14:16.029Z
+**Updated:** 2025-09-20T15:38:18.574Z

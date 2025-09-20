@@ -1,7 +1,7 @@
 # ZIP 파일 업로드, 압축 해제 및 비밀번호 검증 기능 개발
 
 **Task ID:** T-003
-**Status:** BACKLOG
+**Status:** DONE
 **Importance:** MUST
 **Complexity:** 6/10
 **Urgency:** 8/10
@@ -26,4 +26,4 @@
 ---
 
 **Created:** 2025-09-19T12:14:16.029Z
-**Updated:** 2025-09-19T12:14:16.029Z
+**Updated:** 2025-09-20T08:34:55.529Z

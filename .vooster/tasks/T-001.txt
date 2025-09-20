@@ -1,7 +1,7 @@
 # 사용자 인증 구현 및 Settings 테이블 연동
 
 **Task ID:** T-001
-**Status:** BACKLOG
+**Status:** DONE
 **Importance:** MUST
 **Complexity:** 7/10
 **Urgency:** 9/10
@@ -25,4 +25,4 @@
 ---
 
 **Created:** 2025-09-19T12:14:16.029Z
-**Updated:** 2025-09-19T12:14:16.029Z
+**Updated:** 2025-09-20T08:25:29.895Z

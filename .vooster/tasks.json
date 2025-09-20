@@ -1,56 +1,56 @@
 {
   "totalCount": 10,
-  "downloadedAt": "2025-09-19T14:29:19.036Z",
+  "downloadedAt": "2025-09-20T15:38:31.689Z",
   "tasks": [
     {
       "taskId": "T-001",
       "summary": "사용자 인증 구현 및 Settings 테이블 연동",
-      "status": "BACKLOG",
+      "status": "DONE",
       "importance": "MUST",
       "complexity": 7,
       "urgency": 9,
       "createdAt": "2025-09-19T12:14:16.029Z",
-      "updatedAt": "2025-09-19T12:14:16.029Z"
+      "updatedAt": "2025-09-20T08:25:29.895Z"
     },
     {
       "taskId": "T-002",
       "summary": "Supabase DB 스키마 생성 및 ERD 기반 테이블 설계",
-      "status": "BACKLOG",
+      "status": "DONE",
       "importance": "MUST",
       "complexity": 6,
       "urgency": 8,
       "createdAt": "2025-09-19T12:14:16.029Z",
-      "updatedAt": "2025-09-19T12:14:16.029Z"
+      "updatedAt": "2025-09-20T08:25:36.150Z"
     },
     {
       "taskId": "T-003",
       "summary": "ZIP 파일 업로드, 압축 해제 및 비밀번호 검증 기능 개발",
-      "status": "BACKLOG",
+      "status": "DONE",
       "importance": "MUST",
       "complexity": 6,
       "urgency": 8,
       "createdAt": "2025-09-19T12:14:16.029Z",
-      "updatedAt": "2025-09-19T12:14:16.029Z"
+      "updatedAt": "2025-09-20T08:34:55.529Z"
     },
     {
       "taskId": "T-004",
       "summary": "엑셀 파싱 및 '가계부 내역' 시트 데이터 추출 로직 구현",
-      "status": "BACKLOG",
+      "status": "DONE",
       "importance": "MUST",
       "complexity": 7,
       "urgency": 9,
       "createdAt": "2025-09-19T12:14:16.029Z",
-      "updatedAt": "2025-09-19T12:14:16.029Z"
+      "updatedAt": "2025-09-20T09:06:19.955Z"
     },
     {
       "taskId": "T-005",
       "summary": "unique_hash 생성 및 중복 체크 후 DB 저장",
-      "status": "BACKLOG",
+      "status": "DONE",
       "importance": "MUST",
       "complexity": 7,
       "urgency": 9,
       "createdAt": "2025-09-19T12:14:16.029Z",
-      "updatedAt": "2025-09-19T12:14:16.029Z"
+      "updatedAt": "2025-09-20T15:38:18.574Z"
     },
     {
       "taskId": "T-006",

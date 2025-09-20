@@ -1,7 +1,7 @@
 # Supabase DB 스키마 생성 및 ERD 기반 테이블 설계
 
 **Task ID:** T-002
-**Status:** BACKLOG
+**Status:** DONE
 **Importance:** MUST
 **Complexity:** 6/10
 **Urgency:** 8/10
@@ -25,4 +25,4 @@
 ---
 
 **Created:** 2025-09-19T12:14:16.029Z
-**Updated:** 2025-09-19T12:14:16.029Z
+**Updated:** 2025-09-20T08:25:36.150Z
